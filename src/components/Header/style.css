@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headerMenu{
+    margin: 10px 0px;
+}
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none !important;
+    color:#565673;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+}
+.headerMenu:hover{
+    color: #51ea;
+}
+
+.soical-media{
+    margin: 10px 0px;
+
+}

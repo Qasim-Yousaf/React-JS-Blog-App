@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px !important;
+    margin: 10px 0;
+}
+.nabarMenu{
+    padding: 0px;
+    margin: 0px;
+}
+.nabarMenu li{
+    display: inline-block;
+    margin: 0px 10px;
+ 
+}
+.nabarMenu li a{
+    color: #333;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.nabarMenu li a:hover{
+    color: #007bff;
+}
+.search{
+    margin: 0 10px;
+}
+.txtInput{
+       /* width: 0;
+       border: 0; */
+       transform: width 0.8s ease-in;
+}
+.txtInput.active{
+
+    width:150px ;
+    border: 1px solid #333;
+}
+
+.txtInput:focus{
+    outline-color: #333;
+    /* outline-width: 1px; */
+    /* outline-style:solid  ;  */
+}
+.searchIcon{
+    cursor: pointer;
+}

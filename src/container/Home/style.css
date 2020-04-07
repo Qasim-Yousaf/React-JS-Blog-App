@@ -1,0 +1,66 @@
+.galleryPost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBarWraper div{
+    width: 100%;
+}
+
+.sideBarWraper div img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.BigWraper div img{
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+.HomeContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+}
+
+.postImageWrapper{
+    width: 100%;
+}
+
+.postImageWrapper img{
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.postContainer{
+    padding: 10px 10px;
+    
+}
+
+
+.postCategory{
+   display: block;
+   text-align: center;
+}
+
+.postTitle{
+    display: block;
+   text-align: center;
+}
+.postedBy{
+    display: block;
+    text-align: center;
+}
+
+.readMore{
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.readMore button{
+    padding: 5px;
+   
+}
